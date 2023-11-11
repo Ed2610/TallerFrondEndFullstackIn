@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+
+*{
+    font-family: 'Inder', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    background-color: #1E1E1E;
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+}
+
+.main-nav ul{
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.main-nav img{
+    width: 240px;
+    padding: 35px;
+}
+
+.main-nav ul li{
+    margin-right: 50px;
+    ;
+}
+
+.main-nav ul li a{
+    color: #FFF;
+}
+
+.banner{
+    background-image: url('../img/sunrise.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 720px;
+    overflow: hidden;
+}
+
+.banner .subcontenb{
+    padding: 240px 0px 70px 90px;
+}
+
+.banner .subcontenb h1{
+color: #fff;
+font-weight: bold;
+font-size: 70px;
+margin-right: 0px;
+padding-right: 0px;
+transition: 0.8s;
+}
+
+.banner .subcontenb h3{
+    color: #fff;
+    }
+
+.banner .subcontenb .botones button{
+    width: 165px;
+    height: 55px;
+    margin-right: 42px;
+    border-radius: 12px;
+}
+
+.banner .subcontenb .botones .btn-ingresar{
+    border: none;
+    background-color: #F05941;
+    color: #FFF;
+}
+
+.banner .subcontenb .botones .btn-ingresar:hover{
+    background-color: #fff;
+    color: #F05941;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.banner .subcontenb .botones .btn-registro{
+    border: none;
+    background-color: #fff;
+    color: #F05941;
+}
+
+.banner .subcontenb .botones .btn-registro:hover{
+    background-color: #F05941;
+    color: #FFF;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.conten1 {
+    margin: auto;
+    display: grid;
+    padding: 100px 10px 30px 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.conten1 img{
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+
+.conten1 .subconten-con1 {
+    border-left: 2px solid;
+    padding-left: 20px;
+    border-color: #F05941;
+  }
+
+.conten1 img{
+    width: 500px;
+}
+
+.conten2{
+    margin: auto;
+    margin-right: 100px;
+    display: grid;
+    background-color: #606060;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 90px 20px 30px 30px;
+    color: #FFF;
+}
+
+.conten2 .bu{
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.conten3 .IP {
+    height: 685px;
+    z-index: 1;
+    width: auto;
+    position: absolute;
+}
+
+.conten3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 60px 90px 100px 90px;
+}
+
+.conten3 .bg-con3 {
+    background-color: #F05941;
+    height: 550px;
+    margin-left: 80px;
+    margin-top: 60px;
+    padding-left: 300px;
+    border-radius: 12px;
+    color: #FFF;
+}
+
+.conten3 .bg-con3 .prin{
+    border-top: 5px solid;
+    margin-right: 70px;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.conten3 .bg-con3 .subconten-con3 .btn-descarga{
+    margin-top: 150px;
+}
+
+.conten3 .bg-con3 .subconten-con3 .btn-descarga img{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    height: 65px;
+    width: auto;
+
+
+}
+
+.conten3 .bg-con3 .napp{
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0;
+}
+
+footer{
+    width: 100%;
+    background-color: #1E1E1E;
+    text-decoration: none;
+    padding: 35px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+footer img{
+    height: 200px;
+}
+
+footer a{
+    color: #FFF;
+}
+
+footer button{
+    border: none;
+    height: 40px;
+    background-color: #F05941;
+    color: #FFF;
+
+}
+
+footer button:hover{
+    cursor: pointer;
+    background-color: #FFF;
+    color: #F05941;
+    transition: 0.5s;
+}
+
+footer .box .suscripcion{
+    padding-top: 15px;
+}
+
+footer .correo{
+    width: 250px;
+    height: 40px;
+    background-color: #606060;
+    color: #FFF;
+    border: none;
+}
+
+footer .box2 li{
+    margin-top: 40px;
+    font-size: medium;
+
+}
+
+footer .box3 {
+    margin-top: 40px;
+
+}
+
+footer .box3 a i{
+    font-size: 25px;
+    margin-top: 15px;
+    display:grid;
+}
+
+footer a:hover{
+    cursor: pointer;
+    color: #F05941;
+    transition: 0.5s;
+}
