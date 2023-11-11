@@ -117,7 +117,6 @@ transition: 0.8s;
 
 .conten2{
     margin: auto;
-    margin-right: 100px;
     display: grid;
     background-color: #606060;
     grid-template-columns: repeat(2, 1fr);
